@@ -9,7 +9,7 @@ function outputMessage(message) {
 }
 
 function calculateProfit() {
-  document.querySelector('body').style.backgroundColor = '#4BB543';
+  document.querySelector('body').style.backgroundColor = '#79ea86';
   const profit = (currentPrice.value - initialPrice.value) * stocksCount.value;
   const profitPercentage = (
     (profit * 100) /
@@ -26,7 +26,7 @@ function calculateProfit() {
 }
 
 function calculateLoss() {
-  document.querySelector('body').style.backgroundColor = '#FF2E2E';
+  document.querySelector('body').style.backgroundColor = '#e75757';
 
   const loss = (initialPrice.value - currentPrice.value) * stocksCount.value;
   const lossPercentage = (
