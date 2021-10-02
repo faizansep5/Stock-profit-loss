@@ -9,7 +9,7 @@ function outputMessage(message) {
 }
 
 function calculateProfit() {
-  document.querySelector('body').style.backgroundColor = '#7FE5F0';
+  document.querySelector('body').style.backgroundColor = '#4BB543';
   const profit = (currentPrice.value - initialPrice.value) * stocksCount.value;
   const profitPercentage = (
     (profit * 100) /
